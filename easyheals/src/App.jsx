@@ -6,6 +6,7 @@ import { Navbar } from './components/Navbar'
 import { Partners } from './components/Partners'
 import { BookConsultation } from './components/BookConsultation'
 import { LocationDoctors } from './components/LocationDoctors'
+import { ServicesProvided } from './components/ServicesProvided'
 
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
     <Navbar/>
     <BookConsultation/>
     <LocationDoctors/>
+    <ServicesProvided/>
     {/* <Partners/> */}
     </>
   )

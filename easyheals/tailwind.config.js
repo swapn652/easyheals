@@ -16,7 +16,9 @@ export default {
       'indigo-600': 'indigo',
       'green': 'green',
       'lineColor': '#757575',
-      'green2': '#4DAE45'
+      'green2': '#4DAE45',
+      'purple': '#9881FF',
+      'cyan': '#CEEEEA'
     }
   }
 }
