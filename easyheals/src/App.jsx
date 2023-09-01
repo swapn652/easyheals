@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { Navbar } from './components/Navbar'
 import { Partners } from './components/Partners'
+import { BookConsultation } from './components/BookConsultation'
 
 function App() {
   
@@ -11,7 +12,8 @@ function App() {
   return (
     <>
     <Navbar/>
-    <Partners/>
+    <BookConsultation/>
+    {/* <Partners/> */}
     </>
   )
 }

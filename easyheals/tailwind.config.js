@@ -15,7 +15,8 @@ export default {
       'underlineColor': '#EA4E24',
       'indigo-600': 'indigo',
       'green': 'green',
-      'lineColor': '#757575'
+      'lineColor': '#757575',
+      'green2': '#4DAE45'
     }
   }
 }
