@@ -11,7 +11,7 @@ export const BookConsultation = () => {
                 <span className="text-green2">anytime & anywhere</span>
             </div>
         </div>
-        <div className="text-sm flex flex-wrap w-[700px] ml-24">
+        <div className="text-sm flex flex-wrap w-[700px] ml-24 mt-6">
             Taking care of your well-being has never been easier.
             Book lab tests with utmost <div className="self-start">convenience through easyheals.</div>
         </div>

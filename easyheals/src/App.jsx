@@ -5,6 +5,7 @@ import './App.css'
 import { Navbar } from './components/Navbar'
 import { Partners } from './components/Partners'
 import { BookConsultation } from './components/BookConsultation'
+import { LocationDoctors } from './components/LocationDoctors'
 
 function App() {
   
@@ -13,6 +14,7 @@ function App() {
     <>
     <Navbar/>
     <BookConsultation/>
+    <LocationDoctors/>
     {/* <Partners/> */}
     </>
   )
