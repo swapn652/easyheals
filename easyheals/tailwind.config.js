@@ -8,4 +8,11 @@ export default {
     extend: {},
   },
   plugins: [],
+  theme: {
+    colors: {
+      'buttonColor': '#EA4E24',
+      'white': 'white',
+      'underlineColor': '#EA4E24'
+    }
+  }
 }
