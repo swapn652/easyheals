@@ -13,7 +13,9 @@ export default {
       'buttonColor': '#EA4E24',
       'white': 'white',
       'underlineColor': '#EA4E24',
-      'indigo-600': 'indigo'
+      'indigo-600': 'indigo',
+      'green': 'green',
+      'lineColor': '#757575'
     }
   }
 }
