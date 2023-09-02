@@ -39,10 +39,10 @@ export const DoctorWithFeatures = () => {
 
   return (
     <div className="w-[500px] relative">
-        <div className="absolute lg:right-[26em] lg:top-[15em] xl:right-[25em] xl:top-60">
+        <div className="absolute md:right-[24em] md:top-[9em] lg:right-[26em] lg:top-[15em] xl:right-[25em] xl:top-60">
             <Features svg={noteSVG} text="Book an appointment"/>
         </div>
-        <div className="absolute lg:top-[10.5em] xl:top-[9.5em] lg:left-4 xl:left-10">
+        <div className="absolute md:top-[6em] md:right-[4em] lg:top-[10.5em] xl:top-[9.5em] lg:left-4 xl:left-10">
             <Features svg={searchSVG} text="Well Qualified doctors"/>
         </div>
         <div className="">

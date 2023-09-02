@@ -14,7 +14,7 @@ export const Navbar = () => {
   let [open, setOpen] = useState(false); //to keep track of the menu on small screen devices, if it's open or not 
 
   return (
-      <nav className="w-screen lg:w-[75em] 2xl:w-[90rem] xl:w-[83rem] absolute top-0 left-0 h-16 flex flex-row justify-between items-center font-[Poppins] px-20 shadow-md">
+      <nav className="w-screen md:w-[55em] lg:w-[75em] 2xl:w-[90rem] xl:w-[83rem] absolute top-0 left-0 h-16 flex flex-row justify-between items-center font-[Poppins] px-20 shadow-md">
         <img src="/easyHealsLogo.png" className="md:w-32 lg:w-44" alt="Logo" />
         <div
           onClick={() => setOpen(!open)}

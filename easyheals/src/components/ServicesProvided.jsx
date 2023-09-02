@@ -2,12 +2,13 @@ import React from 'react';
 
 export const ServicesProvided = () => {
   return (
+    <>
     <div style={{
         borderRadius: '10px',
         background: '#FFF',
         boxShadow: '0px 2px 40px 0px rgba(96, 96, 96, 0.20)'
     }}
-    className="2xl:w-[1300px] xl:w-[1180px] lg:w-[1050px] h-28 py-2 px-10 flex flex-row gap-x-16 ">
+    className="2xl:w-[1300px] xl:w-[1180px] lg:w-[1050px] md:w-[750px] h-28 py-2 px-10 flex flex-row gap-x-16 overflow-auto">
       <div className="flex flex-col items-center justify-center">
         <img src="/services/doctor.png" className="w-10 h-10" alt="Doctor" />
         <div className="text-xs">Top Rated Doctors</div>
@@ -45,5 +46,6 @@ export const ServicesProvided = () => {
         <div className="text-xs w-24">Compare prices & services</div>
       </div>
     </div>
+    </>
   );
 };
