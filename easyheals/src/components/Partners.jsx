@@ -2,13 +2,60 @@ import React from 'react';
 
 export const Partners = () => {
   return (
-    <div className="flex flex-col w-screen justify-center self-center mx-auto items-center text-center">
-      <div className="flex items-center justify-center gap-x-4 mx-auto">
-        <span className="border-b border-lineColor text-lineColor opacity-30 w-[35vw]"></span>
-        <img src="/PlusIcon.svg" alt="Plus Icon" />
-        <span className="text-xl font-extrabold" style={{fontStyle: 'Poppins'}}>Our Trusted Partners</span>
-        <img src="/PlusIcon.svg" alt="Plus Icon" />
-        <span className="border-b border-lineColor text-lineColor opacity-30 w-[35vw]"></span>
+    // The main container that contains the heading and all the partners
+    <div className="
+      flex 
+      flex-col 
+      w-screen 
+      justify-center 
+      self-center 
+      mx-auto 
+      items-center 
+      text-center"
+    >
+      {/* Heading with plus icon and lines to the side */}
+      <div className="
+        flex 
+        items-center 
+        justify-center 
+        gap-x-4 
+        mx-auto"
+      >
+        {/* Line to the left */}
+        <span className="
+          border-b 
+          border-lineColor 
+          text-lineColor 
+          opacity-30 
+          w-[35vw]"
+        >
+        </span>
+        {/* + sign */}
+        <img 
+          src="/PlusIcon.svg" 
+          alt="Plus Icon" 
+        />
+        {/* Heading Our Trusted Partners */}
+        <span 
+          className="text-xl font-extrabold" 
+          style={{fontStyle: 'Poppins'}}
+        >
+            Our Trusted Partners
+        </span>
+        {/* + icon */}
+        <img 
+          src="/PlusIcon.svg" 
+          alt="Plus Icon" 
+        />
+        {/* Line to the right */}
+        <span 
+          className="border-b 
+          border-lineColor 
+          text-lineColor 
+          opacity-30 
+          w-[35vw]"
+        >
+        </span>
       </div>
     
     {/* Large Screen Devices */}

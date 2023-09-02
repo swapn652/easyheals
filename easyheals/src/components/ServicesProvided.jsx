@@ -1,5 +1,11 @@
 import React from 'react';
 
+const subContainer = `
+  flex 
+  flex-col 
+  items-center 
+  justify-center
+`;
 export const ServicesProvided = () => {
   return (
     <>
@@ -25,22 +31,22 @@ export const ServicesProvided = () => {
     >
       
       {/* Each div is for an image and the text under it */}
-      <div className="flex flex-col items-center justify-center">
+      <div className={`${subContainer}`}>
         <img src="/services/doctor.png" className="w-10 h-10" alt="Doctor" />
         <div className="text-xs">Top Rated Doctors</div>
       </div>
 
-      <div className="flex flex-col items-center justify-center">
+      <div className={`${subContainer}`}>
         <img src="/services/hospital.png" className="w-10 h-10" alt="Hospital" />
         <div className="text-xs">Find Best Hospitals</div>
       </div>
 
-      <div className="flex flex-col items-center justify-center">
+      <div className={`${subContainer}`}>
         <img src="/services/blood-sample.png" className="w-10 h-10" alt="Rupee" />
         <div className="text-xs">Book Lab Tests</div>
       </div>
 
-      <div className="flex flex-col items-center justify-center">
+      <div className={`${subContainer}`}>
         {/* Background was not provided so added custom circular background of purple color */}
         <div className="w-10 h-10 rounded-full bg-purple flex items-center justify-center">
           <img src="/services/surgery-room.png" className="w-6 py-4" alt="Surgery Room" />
@@ -48,7 +54,7 @@ export const ServicesProvided = () => {
         <div className="text-xs">Compare & Book Surgeries</div>
       </div>
 
-      <div className="flex flex-col items-center justify-center">
+      <div className={`${subContainer}`}>
         {/* Custom circular cyan background */}
         <div className="w-10 h-10 bg-cyan rounded-full flex items-center justify-center">
           <img src="/services/fever.svg" className="w-7 py-4" alt="Fever" />
@@ -56,17 +62,17 @@ export const ServicesProvided = () => {
         <div className="text-xs">Treatment by Symptoms</div>
       </div>
 
-      <div className="flex flex-col items-center justify-center">
+      <div className={`${subContainer}`}>
         <img src="/services/orthopaedics.png" className="w-10 h-10" alt="Orthopaedics" />
         <div className="text-xs">Search by Specialities</div>
       </div>
 
-      <div className="flex flex-col items-center justify-center">
+      <div className={`${subContainer}`}>
         <img src="/services/lung-cancer.png" className="w-10 h-10" alt="Lung Cancer" />
         <div className="text-xs">Treatment by Diseases</div>
       </div>
 
-      <div className="flex flex-col items-center justify-center">
+      <div className={`${subContainer}`}>
         <img src="/services/rupee.png" className="w-10 h-10" alt="Rupee" />
         <div className="text-xs w-24">Compare prices & services</div>
       </div>

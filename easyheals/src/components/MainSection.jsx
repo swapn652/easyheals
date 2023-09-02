@@ -9,6 +9,8 @@ import { Features } from './Doctor/Features';
 
 export const MainSection = () => {
   const searchSVG = (
+
+    // SVG icons
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="29"
@@ -41,6 +43,7 @@ export const MainSection = () => {
       <path d="M16.533 25.8425H20.1315M9.33594 18.6455H9.35393H9.33594ZM16.533 18.6455H20.1315H16.533ZM9.33594 25.8425H9.35393H9.33594Z" stroke="#4DAE45" stroke-width="3.47443" stroke-linecap="round" stroke-linejoin="round"/>
     </svg>
   );
+
   return (
     <div className="flex flex-col relative mt-12 w-screen">
       <div className="flex flex-row lg:gap-x-[320px] xl:gap-x-[380px] lg:h-[6em] xl:h-[4em] w-screen absolute">
@@ -50,7 +53,18 @@ export const MainSection = () => {
             <LocationDoctors />
           </div>
         </div>
-        <div className="hidden lg:block lg:w-1/3 mt-[70px] absolute lg:right-[2em] lg:bottom-[8em] xl:bottom-24 xl:right-[6.5em] 2xl:right-[10em]">
+        <div className="
+          hidden 
+          lg:block 
+          lg:w-1/3 
+          mt-[70px] 
+          absolute 
+          lg:right-[2em] 
+          lg:bottom-[8em] 
+          xl:bottom-24 
+          xl:right-[6.5em] 
+          2xl:right-[10em]"
+        >
           <DoctorWithFeatures />
         </div>
         <div className="relative sm:hidden md:block lg:hidden">
@@ -64,7 +78,18 @@ export const MainSection = () => {
           </div>
         </div>
       </div>
-      <div className="flex z-10 mt-10 absolute sm:left-10 sm:top-[22em] md:top-[22em] lg:top-[22em] md:left-8 xl:left-12">
+      <div className="
+        flex 
+        z-10 
+        mt-10 
+        absolute 
+        sm:left-10 
+        sm:top-[22em] 
+        md:top-[22em] 
+        lg:top-[22em] 
+        md:left-8 
+        xl:left-12"
+      >
         <ServicesProvided />
       </div>
     </div>
