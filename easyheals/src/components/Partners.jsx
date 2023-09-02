@@ -2,13 +2,13 @@ import React from 'react';
 
 export const Partners = () => {
   return (
-    <div className="flex flex-col w-screen">
+    <div className="flex flex-col w-screen justify-center self-center mx-auto items-center text-center">
       <div className="flex items-center justify-center gap-x-4 mx-auto">
-        <span className="border-b border-lineColor text-lineColor opacity-30 w-[20px] md:w-[220px] lg:w-[352px] xl:w-[425px] 2xl:w-[430px] mr-2"></span>
+        <span className="border-b border-lineColor text-lineColor opacity-30 w-[35vw]"></span>
         <img src="/PlusIcon.svg" alt="Plus Icon" />
         <span className="text-xl font-extrabold" style={{fontStyle: 'Poppins'}}>Our Trusted Partners</span>
         <img src="/PlusIcon.svg" alt="Plus Icon" />
-        <span className="border-b border-lineColor text-lineColor opacity-30 w-[20px] md:w-[220px] lg:w-[352px] xl:w-[425px] 2xl:w-[430px] ml-2"></span>
+        <span className="border-b border-lineColor text-lineColor opacity-30 w-[35vw]"></span>
       </div>
     
     {/* Large Screen Devices */}
@@ -34,7 +34,7 @@ export const Partners = () => {
       </div>
 
     {/* Small Screen Devices */}
-      <div className="md:hidden flex flex-col items-center justify-center gap-y-20 mx-auto mt-10 mr-32">
+      <div className="md:hidden flex flex-row w-[400px] gap-x-10 left overflow-auto items-center justify-center gap-y-20 mx-auto mt-10 mr-32">
           <img src="partners/RubyHallClinic.png" className="w-40 h-12" alt="Ruby Hall Clinic" />
           <img src="partners/DrAgarwals.png" className="w-40 h-14" alt="Dr. Agarwals" />
           <img src="partners/UnityHospital.png" className="w-26 h-14" alt="Unity Hospital" />

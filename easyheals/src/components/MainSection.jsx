@@ -46,14 +46,14 @@ export const MainSection = () => {
       <div className="flex flex-row lg:gap-x-[320px] xl:gap-x-[380px] lg:h-[6em] xl:h-[4em] w-screen absolute">
         <div className="absolute lg:bottom-2 xl:top-1"> 
             <BookConsultation />
-          <div className="z-10 mt-10 absolute top-56 md:left-8 lg:left-12">
+          <div className="z-10 mt-10 absolute sm:left-10 sm:top-44 md:top-56 md:left-8 lg:left-12">
             <LocationDoctors />
           </div>
         </div>
         <div className="hidden lg:block lg:w-1/3 mt-[70px] absolute lg:right-[2em] lg:bottom-[8em] xl:bottom-24 xl:right-[6.5em] 2xl:right-[10em]">
           <DoctorWithFeatures />
         </div>
-        <div className="relative md:block lg:hidden">
+        <div className="relative sm:hidden md:block lg:hidden">
           <img src="/plus_1.png" className="w-28 ml-[34em]"/>
           <div className="absolute left-[42em] top-[2em]">
               <Features svg={noteSVG} text="Book an appointment"/>
@@ -64,7 +64,7 @@ export const MainSection = () => {
           </div>
         </div>
       </div>
-      <div className="z-10 mt-10 absolute md:top-[22em] lg:top-[22em] md:left-8">
+      <div className="flex z-10 mt-10 absolute sm:left-10 sm:top-[22em] md:top-[22em] lg:top-[22em] md:left-8 xl:left-12">
         <ServicesProvided />
       </div>
     </div>

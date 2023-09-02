@@ -19,7 +19,7 @@ function App() {
       <Navbar/>
       <div className="relative w-screen"> 
         <MainSection/>
-        <div className="absolute top-[36em] lg:left-[3.5em] xl:left-[0em] 2xl:right-[3.3em]">
+        <div className="absolute self-center top-[36em] xl:left-0 lg:left-10">
           <Partners/>
         </div>
       </div>
