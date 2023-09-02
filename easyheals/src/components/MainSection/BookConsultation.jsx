@@ -11,13 +11,13 @@ export const BookConsultation = () => {
         sm:w-[285px] 
         sm:text-[24px] 
         md:top-16 
-        md:w-[525px] 
+        md:w-[485px] 
         md:text-[32px] 
         lg:text-[39px] 
         font-semibold"
       >
         <div>Book Consultation & Lab</div>
-        <div className="absolute md:left-[85px] lg:left-12">
+        <div className="absolute md:left-[2em] lg:left-12">
           <span>Tests </span>
           <span className="text-green2">anytime & anywhere</span>
         </div>
@@ -28,7 +28,7 @@ export const BookConsultation = () => {
         sm:left-10 
         sm:w-[320px] 
         md:top-44 
-        md:left-[85px] 
+        md:left-[8.4em] 
         md:text-[0.8em] 
         md:w-[400px] 
         lg:top-48 

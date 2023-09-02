@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { Navbar } from './components/Navbar'
 import { Partners } from './components/Partners'
-import { MainSection } from './components/MainSection'
+import { MainSection } from './components/MainSection/MainSection'
 
 function App() {
 
