@@ -7,18 +7,18 @@ import { DoctorWithFeatures } from './Doctor/DoctorWithFeatures';
 export const MainSection = () => {
   return (
     <div className="flex flex-col relative mt-12">
-      <div className="flex flex-row lg:gap-x-[320px] xl:gap-x-[380px] h-[4em] w-screen absolute">
-        <div className="md:w-1/2 lg:w-1/3 absolute"> 
+      <div className="flex flex-row lg:gap-x-[320px] xl:gap-x-[380px] lg:h-[6em] xl:h-[4em] w-screen absolute">
+        <div className="absolute lg:bottom-2 xl:top-1"> 
           <BookConsultation />
-          <div className="mt-10 absolute top-56 left-12">
+          <div className="mt-10 absolute top-56 lg:left-12">
             <LocationDoctors />
           </div>
         </div>
-        <div className="md:w-1/3 lg:w-1/3 mt-[70px] absolute bottom-24 right-[6.5em]">
+        <div className="lg:w-1/3 mt-[70px] absolute lg:right-[2em] lg:bottom-[8em] xl:bottom-24 xl:right-[6.5em] 2xl:right-[10em]">
           <DoctorWithFeatures  />
         </div>
       </div>
-      <div className="z-10 mt-10 absolute top-[22em] left-12">
+      <div className="z-10 mt-10 absolute top-[22em] lg:left-12">
         <ServicesProvided />
       </div>
     </div>

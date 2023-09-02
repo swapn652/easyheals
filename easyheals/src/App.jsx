@@ -16,13 +16,13 @@ function App() {
 
   return (
     <>
-    <Navbar/>
-    <MainSection/>
-    <div className="mt-20 -ml-14">
-      {/* <Partners/> */}
-    </div>
-    {/* <Doctor/> */}
-    {/* <DoctorWithFeatures/> */}
+      <Navbar/>
+      <div className="relative w-screen"> 
+        <MainSection/>
+        <div className="absolute top-[36em] lg:left-[3.5em] xl:left-[0em] 2xl:right-[3.3em]">
+          <Partners/>
+        </div>
+      </div>
     </>
   )
 }

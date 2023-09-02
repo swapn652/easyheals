@@ -4,11 +4,11 @@ export const Partners = () => {
   return (
     <div className="flex flex-col w-screen">
       <div className="flex items-center justify-center gap-x-4 mx-auto">
-        <span className="border-b border-lineColor text-lineColor opacity-30 w-[20px] md:w-[220px] lg:w-[320px] xl:w-[425px] mr-2"></span>
+        <span className="border-b border-lineColor text-lineColor opacity-30 w-[20px] md:w-[220px] lg:w-[352px] xl:w-[425px] 2xl:w-[430px] mr-2"></span>
         <img src="/PlusIcon.svg" alt="Plus Icon" />
-        <span className="text-xl font-[Poppins] font-semibold">Our Trusted Partners</span>
+        <span className="text-xl font-extrabold" style={{fontStyle: 'Poppins'}}>Our Trusted Partners</span>
         <img src="/PlusIcon.svg" alt="Plus Icon" />
-        <span className="border-b border-lineColor text-lineColor opacity-30 w-[20px] md:w-[220px] lg:w-[320px] xl:w-[425px] ml-2"></span>
+        <span className="border-b border-lineColor text-lineColor opacity-30 w-[20px] md:w-[220px] lg:w-[352px] xl:w-[425px] 2xl:w-[430px] ml-2"></span>
       </div>
     
     {/* Large Screen Devices */}
