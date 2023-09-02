@@ -3,6 +3,7 @@ import React from 'react';
 export const Doctor = () => {
   return (
     <div className="relative">
+      {/* Plus image on top left of doctor */}
       <img src="plus_3.png" className="
         absolute
         md:w-16 
@@ -17,6 +18,8 @@ export const Doctor = () => {
         xl:h-36 
         xl:top-10" 
       />
+      
+      {/* Doctor's image */}
       <img src="femdoctor.png" className="
         absolute
         lg:w-[470px] 
@@ -26,6 +29,8 @@ export const Doctor = () => {
         mt-4 
         z-10" 
       />
+
+      {/* Plus image on right of doctor */}
       <img src="plus_1.png" className="
         absolute
         mt-2  

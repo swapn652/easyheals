@@ -24,16 +24,25 @@ export const LocationDoctors = () => {
     py-4"
   > 
     <div className="flex flex-col">
-        <div className="sm:text-[10px] md:text-[16px] lg:text-[8px] xl:text-[9px] text-green2">Location</div>
-        <div className="sm:text-[11px] md:text-[16px] lg:text-[9px] xl:text-[11px] mt-[2px]">Delhi</div>   
+        <div className="sm:text-[10px] md:text-[16px] lg:text-[8px] xl:text-[9px] text-green2">
+          Location
+        </div>
+        <div className="sm:text-[11px] md:text-[16px] lg:text-[9px] xl:text-[11px] mt-[2px]">
+          Delhi
+        </div>
       </div>
+
       <div className="lg:block border-r border-gray-400 pr-4 h-8 mt-[4px] text-lineColor opacity-30"></div>
+
       <div className="flex flex-col ml-4">
-        <div className="sm:text-[10px] md:text-[16px] lg:text-[8px] xl:text-[9px] text-green2">Doctor/Speciality</div>
+        <div className="sm:text-[10px] md:text-[16px] lg:text-[8px] xl:text-[9px] text-green2">
+          Doctor/Speciality
+        </div>
         <div className="sm:text-[11px] md:text-[16px] lg:text-[9px] xl:text-[11px] mt-[2px]">
           Search by Doctors, Hospitals, Diseases, etc.
         </div>
       </div>
+
       <button
         className="
           text-white 

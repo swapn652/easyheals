@@ -59,7 +59,7 @@ export const Partners = () => {
       </div>
     
     {/* Large Screen Devices */}
-      <div className="hidden lg:flex flex-row lg:gap-x-14 xl:gap-x-20 mx-auto mt-10">
+      <div className="hidden flex-row lg:flex lg:gap-x-14 xl:gap-x-20 mx-auto mt-10">
         <img src="partners/RubyHallClinic.png" className="lg:w-44 lg:h-12 xl:w-52 xl:h-14" alt="Ruby Hall Clinic" />
         <img src="partners/DrAgarwals.png" className="lg:w-44 lg:h-12 xl:w-52 xl:h-16" alt="Dr. Agarwals" />
         <img src="partners/UnityHospital.png" className="lg:w-24 lg:h-12 xl:w-32 xl:h-14" alt="Unity Hospital" />
@@ -68,7 +68,7 @@ export const Partners = () => {
       </div>
 
     {/* Medium Screen Devices */}
-      <div className="hidden lg:hidden md:block flex-row gap-x-20 mx-auto mt-10 flex-wrap">
+      <div className="hidden flex-row lg:hidden md:block gap-x-20 mx-auto mt-10 flex-wrap">
         <div className="flex flex-row mx-auto gap-x-20">
           <img src="partners/RubyHallClinic.png" className="w-42 h-12" alt="Ruby Hall Clinic" />
           <img src="partners/DrAgarwals.png" className="w-42 h-12" alt="Dr. Agarwals" />
