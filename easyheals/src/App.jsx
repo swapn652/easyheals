@@ -10,17 +10,19 @@ import { ServicesProvided } from './components/ServicesProvided'
 import { Features } from './components/Doctor/Features'
 import { Doctor } from './components/Doctor/Doctor'
 import { DoctorWithFeatures } from './components/Doctor/DoctorWithFeatures'
+import { MainSection } from './components/MainSection'
 
 function App() {
 
   return (
     <>
     <Navbar/>
-    <BookConsultation/>
-    <LocationDoctors/>
-    <ServicesProvided/>
-    <DoctorWithFeatures/>
-    {/* <Partners/> */}
+    <MainSection/>
+    <div className="mt-20 -ml-14">
+      {/* <Partners/> */}
+    </div>
+    {/* <Doctor/> */}
+    {/* <DoctorWithFeatures/> */}
     </>
   )
 }

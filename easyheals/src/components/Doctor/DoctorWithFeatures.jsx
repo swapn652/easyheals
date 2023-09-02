@@ -38,16 +38,20 @@ export const DoctorWithFeatures = () => {
       );
 
   return (
-    <div className="flex flex-row">
-        <div className="mt-40">
+    <div className="w-[500px] relative">
+        <div className="absolute right-[25em] top-60">
             <Features svg={noteSVG} text="Book an appointment"/>
         </div>
-        <div className="mt-24 -ml-20">
+        <div className="absolute top-[9.5em] left-10">
             <Features svg={searchSVG} text="Well Qualified doctors"/>
         </div>
-        <div className="-ml-[85px]">
+        <div className="">
             <Doctor/>
         </div>
     </div>
+    // <div className="">
+    //   <Doctor/>
+    // </div>
+  
   )
 }
