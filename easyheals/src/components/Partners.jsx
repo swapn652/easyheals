@@ -27,7 +27,7 @@ export const Partners = () => {
           border-lineColor 
           text-lineColor 
           opacity-30 
-          w-[35vw]"
+          w-[31vw]"
         >
         </span>
         {/* + sign */}
@@ -53,7 +53,7 @@ export const Partners = () => {
           border-lineColor 
           text-lineColor 
           opacity-30 
-          w-[35vw]"
+          w-[31vw]"
         >
         </span>
       </div>

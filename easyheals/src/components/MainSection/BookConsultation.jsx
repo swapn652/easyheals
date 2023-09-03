@@ -11,9 +11,12 @@ export const BookConsultation = () => {
         sm:w-[285px] 
         sm:text-[24px] 
         md:top-16 
-        md:w-[485px] 
+        md:w-[490px]
+        md:left-0
         md:text-[32px] 
         lg:text-[39px] 
+        lg:w-[530px] 
+        lg:left-0
         font-semibold"
       >
         <div>Book Consultation & Lab</div>
@@ -28,7 +31,7 @@ export const BookConsultation = () => {
         sm:left-10 
         sm:w-[320px] 
         md:top-44 
-        md:left-[8.4em] 
+        md:left-[5.5em] 
         md:text-[0.8em] 
         md:w-[400px] 
         lg:top-48 
