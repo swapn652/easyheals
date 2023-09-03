@@ -49,7 +49,7 @@ export const MainSection = () => {
       <div className="flex flex-row lg:gap-x-[320px] xl:gap-x-[380px] lg:h-[6em] xl:h-[4em] w-screen absolute">
         <div className="absolute lg:bottom-2 xl:top-1"> 
             <BookConsultation />
-          <div className="z-10 mt-10 absolute sm:left-10 sm:top-44 md:top-56 md:left-8 lg:left-12">
+          <div className="mt-10 absolute sm:left-10 sm:top-44 md:top-56 md:left-8 lg:left-12">
             <LocationDoctors />
           </div>
         </div>
