@@ -35,7 +35,7 @@ export const BookConsultation = () => {
         md:text-[0.8em] 
         md:w-[400px] 
         lg:top-48 
-        lg:left-12 
+        lg:left-14 
         lg:text-[0.69em] 
         lg:w-[430px] 
         text-left">

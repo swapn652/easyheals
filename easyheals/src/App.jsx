@@ -14,8 +14,8 @@ function App() {
     <>
       <Navbar/>
       <div className="relative w-screen"> 
-        {/* <MainSection/> */}
-        <MSGrid/>
+        <MainSection/>
+        {/* <MSGrid/> */}
         <div className="absolute self-center top-[36em] xl:left-0 lg:left-10">
           <Partners/>
         </div>
